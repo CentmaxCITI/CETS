@@ -1913,7 +1913,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  position: relative;
+  /* position: relative; */
   background: var(--color-primary);
   padding: 60px 0 0 0;
 }
@@ -2716,11 +2716,17 @@ section {
 /*--------------------------------------------------------------
 # Carousel
 --------------------------------------------------------------*/
-.carousel-inner {
+.carousel slide {
+  width: 100%;
+}
+.no-padding {
+  padding: 0;
+}
+/* .carousel-inner {
   position: relative;
   height: 500px;
 }
 .carousel-item {
   top: 50%;
   transform: translateY(-50%);
-}
+} */
