@@ -1197,7 +1197,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 5px 20px 5px 20px;
-  background-color: #017d06;
+  background-color: #D84315;
   position: relative;
   border-top: 0px solid #f3f3f3;
   z-index: 2;
@@ -1746,7 +1746,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-container {
-  background-color: #fff;
+  background-color: #020e84;
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;
@@ -1916,7 +1916,7 @@ section {
 .hero {
   width: 100%;
   background: var(--color-primary);
-  padding: 60px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 @media (min-width: 1365px) {
@@ -2717,10 +2717,10 @@ section {
 /*--------------------------------------------------------------
 # Carousel
 --------------------------------------------------------------*/
-.carousel slide {
-  width: 100%;
-}
-.no-padding {
+/* .carousel slide {
+  margin-top: 0px;
+} */
+/* .no-padding {
   padding: 0;
 
 }
@@ -2732,11 +2732,16 @@ section {
   position: absolute;
   height: 100%;
   object-fit: cover;
-  /* transform: translateY(-50%); */
-}
+  transform: translateY(-50%);
+}  */
 .carousel-caption {
-  align-items: left;
-  height: 100px;
+  /* align-items: left; */
+  /* height: 100px; */
   background-image: linear-gradient( to right, #d842151a ,#D84315 , #d842151a );
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
+}
+
+.google-map iframe {
+  display: block;
+  width: 100%;
 }
