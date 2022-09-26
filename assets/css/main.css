@@ -609,7 +609,8 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: #020e84;
+    opacity: 80%;
     z-index: 9996;
   }
 }
@@ -844,7 +845,7 @@ section {
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
   background-size: cover;
-  padding: 100px 60px;
+  /* padding: 60px; */
   border-radius: 15px;
   overflow: hidden;
 }
@@ -2618,7 +2619,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  height: 500px;
+  height: 600px;
   font-size: 14px;
   background-color: var(--color-primary);
   padding: 50px 0;
@@ -2718,6 +2719,9 @@ section {
 
 .footer .copyright {
   text-align: center;
+  background-color: #020e84;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .footer .credits {
