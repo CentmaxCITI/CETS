@@ -1628,7 +1628,7 @@ section {
 
 .faq .content p {
   font-size: 15px;
-  color: #6c757d;
+  color: #121212;
 }
 
 .faq .accordion-item {
@@ -1639,6 +1639,7 @@ section {
 }
 
 .faq .accordion-item:last-child {
+  
   margin-bottom: 0;
 }
 
@@ -1667,12 +1668,13 @@ section {
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color: rgb(19, 19, 19);
   border-bottom: 0;
   box-shadow: none;
 }
 
 .faq .accordion-button:after {
+  color: rgb(26, 26, 26);
   position: absolute;
   right: 20px;
   top: 20px;
